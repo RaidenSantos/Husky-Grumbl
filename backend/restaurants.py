@@ -5,8 +5,7 @@ import json
 from geopy.distance import geodesic
 from restaurant import Restaurant
 
-my_api_key = "&key=AIzaSyCxduNEld5Ek1zYcr7nlrVLhJBBwlH1Fy4" # (Shreya's Key)
-# my_api_key = "&key=AIzaSyBsfTYeutSAt0mTeJ-_tSWas2lhlymwIlE" # (Mayee's Key)
+my_api_key = "[API KEY]" 
 
 def get_user_coordinates(api_key, address):
     url = f'https://maps.googleapis.com/maps/api/geocode/json?address={address}&key={api_key}'
